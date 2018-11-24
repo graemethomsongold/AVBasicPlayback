@@ -1,0 +1,461 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE651FCF21A951EA00C84057 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE651FCE21A951EA00C84057 /* AppDelegate.swift */; };
+		EE651FD121A951EA00C84057 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE651FD021A951EA00C84057 /* ViewController.swift */; };
+		EE651FD321A951EB00C84057 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE651FD221A951EB00C84057 /* Assets.xcassets */; };
+		EE651FD621A951EB00C84057 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE651FD421A951EB00C84057 /* Main.storyboard */; };
+		EE651FE221A951EB00C84057 /* AVBasicPlaybackTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE651FE121A951EB00C84057 /* AVBasicPlaybackTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EE651FDE21A951EB00C84057 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE651FC321A951E900C84057 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE651FCA21A951EA00C84057;
+			remoteInfo = AVBasicPlayback;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EE651FCB21A951EA00C84057 /* AVBasicPlayback.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AVBasicPlayback.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE651FCE21A951EA00C84057 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EE651FD021A951EA00C84057 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EE651FD221A951EB00C84057 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE651FD521A951EB00C84057 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EE651FD721A951EB00C84057 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE651FD821A951EB00C84057 /* AVBasicPlayback.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AVBasicPlayback.entitlements; sourceTree = "<group>"; };
+		EE651FDD21A951EB00C84057 /* AVBasicPlaybackTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AVBasicPlaybackTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE651FE121A951EB00C84057 /* AVBasicPlaybackTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVBasicPlaybackTests.swift; sourceTree = "<group>"; };
+		EE651FE321A951EB00C84057 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE651FC821A951EA00C84057 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE651FDA21A951EB00C84057 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE651FC221A951E900C84057 = {
+			isa = PBXGroup;
+			children = (
+				EE651FCD21A951EA00C84057 /* AVBasicPlayback */,
+				EE651FE021A951EB00C84057 /* AVBasicPlaybackTests */,
+				EE651FCC21A951EA00C84057 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE651FCC21A951EA00C84057 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE651FCB21A951EA00C84057 /* AVBasicPlayback.app */,
+				EE651FDD21A951EB00C84057 /* AVBasicPlaybackTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE651FCD21A951EA00C84057 /* AVBasicPlayback */ = {
+			isa = PBXGroup;
+			children = (
+				EE651FCE21A951EA00C84057 /* AppDelegate.swift */,
+				EE651FD021A951EA00C84057 /* ViewController.swift */,
+				EE651FD221A951EB00C84057 /* Assets.xcassets */,
+				EE651FD421A951EB00C84057 /* Main.storyboard */,
+				EE651FD721A951EB00C84057 /* Info.plist */,
+				EE651FD821A951EB00C84057 /* AVBasicPlayback.entitlements */,
+			);
+			path = AVBasicPlayback;
+			sourceTree = "<group>";
+		};
+		EE651FE021A951EB00C84057 /* AVBasicPlaybackTests */ = {
+			isa = PBXGroup;
+			children = (
+				EE651FE121A951EB00C84057 /* AVBasicPlaybackTests.swift */,
+				EE651FE321A951EB00C84057 /* Info.plist */,
+			);
+			path = AVBasicPlaybackTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE651FCA21A951EA00C84057 /* AVBasicPlayback */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE651FE621A951EB00C84057 /* Build configuration list for PBXNativeTarget "AVBasicPlayback" */;
+			buildPhases = (
+				EE651FC721A951EA00C84057 /* Sources */,
+				EE651FC821A951EA00C84057 /* Frameworks */,
+				EE651FC921A951EA00C84057 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AVBasicPlayback;
+			productName = AVBasicPlayback;
+			productReference = EE651FCB21A951EA00C84057 /* AVBasicPlayback.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EE651FDC21A951EB00C84057 /* AVBasicPlaybackTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE651FE921A951EB00C84057 /* Build configuration list for PBXNativeTarget "AVBasicPlaybackTests" */;
+			buildPhases = (
+				EE651FD921A951EB00C84057 /* Sources */,
+				EE651FDA21A951EB00C84057 /* Frameworks */,
+				EE651FDB21A951EB00C84057 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE651FDF21A951EB00C84057 /* PBXTargetDependency */,
+			);
+			name = AVBasicPlaybackTests;
+			productName = AVBasicPlaybackTests;
+			productReference = EE651FDD21A951EB00C84057 /* AVBasicPlaybackTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE651FC321A951E900C84057 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Graeme Thomson-Gold";
+				TargetAttributes = {
+					EE651FCA21A951EA00C84057 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					EE651FDC21A951EB00C84057 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = EE651FCA21A951EA00C84057;
+					};
+				};
+			};
+			buildConfigurationList = EE651FC621A951E900C84057 /* Build configuration list for PBXProject "AVBasicPlayback" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE651FC221A951E900C84057;
+			productRefGroup = EE651FCC21A951EA00C84057 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE651FCA21A951EA00C84057 /* AVBasicPlayback */,
+				EE651FDC21A951EB00C84057 /* AVBasicPlaybackTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE651FC921A951EA00C84057 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE651FD321A951EB00C84057 /* Assets.xcassets in Resources */,
+				EE651FD621A951EB00C84057 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE651FDB21A951EB00C84057 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE651FC721A951EA00C84057 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE651FD121A951EA00C84057 /* ViewController.swift in Sources */,
+				EE651FCF21A951EA00C84057 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE651FD921A951EB00C84057 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE651FE221A951EB00C84057 /* AVBasicPlaybackTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EE651FDF21A951EB00C84057 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE651FCA21A951EA00C84057 /* AVBasicPlayback */;
+			targetProxy = EE651FDE21A951EB00C84057 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EE651FD421A951EB00C84057 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE651FD521A951EB00C84057 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EE651FE421A951EB00C84057 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EE651FE521A951EB00C84057 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		EE651FE721A951EB00C84057 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = AVBasicPlayback/AVBasicPlayback.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = J32ZE642QL;
+				INFOPLIST_FILE = AVBasicPlayback/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = www.graemejthomson.co.uk.AVBasicPlayback;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		EE651FE821A951EB00C84057 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = AVBasicPlayback/AVBasicPlayback.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = J32ZE642QL;
+				INFOPLIST_FILE = AVBasicPlayback/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = www.graemejthomson.co.uk.AVBasicPlayback;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
+		EE651FEA21A951EB00C84057 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = J32ZE642QL;
+				INFOPLIST_FILE = AVBasicPlaybackTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = www.graemejthomson.co.uk.AVBasicPlaybackTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AVBasicPlayback.app/Contents/MacOS/AVBasicPlayback";
+			};
+			name = Debug;
+		};
+		EE651FEB21A951EB00C84057 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = J32ZE642QL;
+				INFOPLIST_FILE = AVBasicPlaybackTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = www.graemejthomson.co.uk.AVBasicPlaybackTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AVBasicPlayback.app/Contents/MacOS/AVBasicPlayback";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE651FC621A951E900C84057 /* Build configuration list for PBXProject "AVBasicPlayback" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE651FE421A951EB00C84057 /* Debug */,
+				EE651FE521A951EB00C84057 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE651FE621A951EB00C84057 /* Build configuration list for PBXNativeTarget "AVBasicPlayback" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE651FE721A951EB00C84057 /* Debug */,
+				EE651FE821A951EB00C84057 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE651FE921A951EB00C84057 /* Build configuration list for PBXNativeTarget "AVBasicPlaybackTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE651FEA21A951EB00C84057 /* Debug */,
+				EE651FEB21A951EB00C84057 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE651FC321A951E900C84057 /* Project object */;
+}
