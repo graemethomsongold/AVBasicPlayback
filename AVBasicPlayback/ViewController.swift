@@ -15,12 +15,15 @@ class ViewController: NSViewController {
     let delegate = NSApplication.shared.delegate as! AppDelegate
     
     @IBOutlet weak var playerView: AVPlayerView!
-    override func viewDidLoad() {
-        super.viewDidLoad()
+    fileprivate func createNewPlayer() {
         // Create a new AVPlayer and associate it with the player view
         let player = AVPlayer(url: delegate.vid.url)
         playerView.player = player
-        
+    }
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        createNewPlayer()
     }
 
     override var representedObject: Any? {

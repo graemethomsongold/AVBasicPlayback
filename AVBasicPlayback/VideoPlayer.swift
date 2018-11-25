@@ -15,7 +15,7 @@ class VideoPlayer {
     let player: AVPlayer;
     
     init(){
-        url = URL(fileURLWithPath: "https://devimages-cdn.apple.com/samplecode/avfoundationMedia/AVFoundationQueuePlayer_HLS2/master.m3u8");
+        url = URL(fileURLWithPath: "https://devimages.apple.com.edgekey.net/samplecode/avfoundationMedia/AVFoundationQueuePlayer_HLS2/master.m3u8");
         player = AVPlayer(url: url);
     }
 }
