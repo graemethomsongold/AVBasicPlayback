@@ -12,6 +12,7 @@
 		EE651FD321A951EB00C84057 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE651FD221A951EB00C84057 /* Assets.xcassets */; };
 		EE651FD621A951EB00C84057 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE651FD421A951EB00C84057 /* Main.storyboard */; };
 		EE651FE221A951EB00C84057 /* AVBasicPlaybackTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE651FE121A951EB00C84057 /* AVBasicPlaybackTests.swift */; };
+		EEE2472B21AB526800D85DE3 /* VideoPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE2472A21AB526800D85DE3 /* VideoPlayer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +36,7 @@
 		EE651FDD21A951EB00C84057 /* AVBasicPlaybackTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AVBasicPlaybackTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE651FE121A951EB00C84057 /* AVBasicPlaybackTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVBasicPlaybackTests.swift; sourceTree = "<group>"; };
 		EE651FE321A951EB00C84057 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEE2472A21AB526800D85DE3 /* VideoPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 				EE651FD421A951EB00C84057 /* Main.storyboard */,
 				EE651FD721A951EB00C84057 /* Info.plist */,
 				EE651FD821A951EB00C84057 /* AVBasicPlayback.entitlements */,
+				EEE2472A21AB526800D85DE3 /* VideoPlayer.swift */,
 			);
 			path = AVBasicPlayback;
 			sourceTree = "<group>";
@@ -197,6 +200,7 @@
 			files = (
 				EE651FD121A951EA00C84057 /* ViewController.swift in Sources */,
 				EE651FCF21A951EA00C84057 /* AppDelegate.swift in Sources */,
+				EEE2472B21AB526800D85DE3 /* VideoPlayer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

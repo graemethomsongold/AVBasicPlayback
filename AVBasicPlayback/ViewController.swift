@@ -11,15 +11,14 @@ import AVKit
 import AVFoundation
 
 class ViewController: NSViewController {
-
+    
+    let delegate = NSApplication.shared.delegate as! AppDelegate
+    
     @IBOutlet weak var playerView: AVPlayerView!
     override func viewDidLoad() {
         super.viewDidLoad()
-        guard let url = URL(string: "https://devimages-cdn.apple.com/samplecode/avfoundationMedia/AVFoundationQueuePlayer_HLS2/master.m3u8") else {
-            return
-        }
         // Create a new AVPlayer and associate it with the player view
-        let player = AVPlayer(url: url)
+        let player = AVPlayer(url: delegate.vid.url)
         playerView.player = player
         
     }
